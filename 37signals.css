@@ -67,8 +67,6 @@ h5.subtitle {
 div.product-boxes-div {
 	position: relative;
 	text-align: center;
-	
-	
 }
 
 .product-box {
@@ -129,7 +127,7 @@ div.asterisk{
 
 h2 {
 	font-family: "Crimson Text", "Times New Roman", Georgia, serif;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 	font-size: 48px;
 	letter-spacing: -1px;
@@ -192,6 +190,7 @@ p.trusted-subtext img {
 
 .credo {
 	position: relative;
+	margin-bottom: 20px;
 }
 
 .left-credo-column{
@@ -204,7 +203,6 @@ p.trusted-subtext img {
 	width: 50%;
 	margin-top: 25px;
 	float: right;
-
 }
 
 .credo-box-left {
@@ -255,4 +253,57 @@ p.credo-text {
 .credo-text a:hover {
 	color: #63b9d5;
 	text-decoration: underline;
+}
+
+h2 em {
+	font-style: italic;
+}
+
+#testimonials {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#testimonials img {
+	float: left;
+}
+
+.find-out-more {
+	position: relative;
+	top: -100px;
+	left: 40px;
+}
+
+.find-out-more a{
+	clear: both;
+	float: right;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: #369;
+	text-decoration: none;
+	display: block;
+}
+
+.find-out-more .arrow { /*need help positioning this */
+	position: absolute;
+	top: 55px;
+	right: 95px;
+}
+
+p.quote {
+	font-style: italic;
+	color: #888;
+	font-size: 20px;
+	font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+	font-weight: normal;
+	line-height: 1.4em;
+	padding: 30px 0 0 0;
+}
+
+p.quote-attribute {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #222;
+	font-size: 12px;
+	padding: 20px 0 10px 0;
 }
