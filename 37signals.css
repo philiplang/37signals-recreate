@@ -105,6 +105,14 @@ div.product-boxes-div {
 	color: #999;
 }
 
+.product-box-footer .sup {
+	vertical-align: super;
+	text-decoration: none;
+	font-size: 50%;
+	font-weight: 400;
+	color: #999;
+}
+
 .product-box h4{
 	font-size: 14px;
 	color: #C00;
@@ -328,13 +336,18 @@ p.quote-attribute {
 	text-align: center;
 }
 
+.product-boxes-footer-container {
+	width: 580px;
+	margin: 0 auto;
+}
+
 .product-box-footer {
 	float: left;
 	width: 160px;
 	text-decoration: none;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-	padding: 30px 8px 20px 8px;
-	margin: 0 30px;     /*can't figure out how to center */
+	padding: 20px 5px 20px 5px;
+	margin: 10px 10px 0 10px;
 }
 
 .product-box-footer h3 {
