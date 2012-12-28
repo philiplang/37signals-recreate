@@ -6,6 +6,32 @@
 	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,500,600,700,400italic,500italic,600italic' rel='stylesheet' type='text/css'>
   <title>37signals</title>
 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+  	$("div.BC").hover(function(){
+  		$('.title, .BC-hover').toggle();
+  		$('.subtitle, .BC-text').toggle();
+  		$('img.BC-arrow').toggle();
+  		$('.basecamp-box p.short-des, .basecamp-box .find-out-more-button').toggle();
+  	});
+  	$("div.HR").hover(function(){
+  		$('.title, .HR-hover').toggle();
+  		$('.subtitle, .HR-text').toggle();
+  		$('img.HR-arrow').toggle();
+  		$('.highrise-box p.short-des, .highrise-box .find-out-more-button').toggle();
+  	});
+  	$("div.CF").hover(function(){
+  		$('.title, .CF-hover').toggle();
+  		$('.subtitle, .CF-text').toggle();
+  		$('img.CF-arrow').toggle();
+  		$('.campfire-box p.short-des, .campfire-box .find-out-more-button').toggle();
+  	});
+  });
+
+  </script>
+
+
 </head>
 <body>
 
@@ -27,31 +53,43 @@
 <div id="products">
 	<h1 class="title"> Making collaboration productive and enjoyable for people every day.</h1>
 	<h5 class="subtitle">Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
+	<h1 class="BC-hover"><span class="h1-link">Basecamp</span> is the project management tool you wish you had on your last project.</h1>
+	<p class="BC-text">Are you still managing projects with email? Are you still using Excel for your to-do lists? It’s time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</p>
+	<h1 class="HR-hover"><span class="h1-link">Highrise</span>  remembers the important things about people you’d normally forget.</h1>
+	<p class="HR-text">Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</p>
+	<h1 class="CF-hover">From near or far, <span class="h1-link">Campfire</span>   helps teams work together over the web in real-time.</h1>
+	<p class="CF-text">Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It’s game changing. We couldn’t run our own business without Campfire.</p>
 </div> <!-- products !-->
 
 <div class="product-boxes-div"> <!-- why does this have 0 height? !-->
 	<a href="http://basecamp.com/?source=37signals+home" class="basecamp-box">
-		<div class="product-box">
+		<div class="product-box BC">
+			<img class="BC-arrow" src="http://37signals.com/images/arrow-left.png">
 			<img src="http://37signals.com/images/logo-bc.png">
 			<h3><span>Basecamp</span><span class="sup">&reg;</span></h3>
 			<h4>Manage Projects</h4>
 			<p class="short-des">Used by millions for project management.</p>
+			<p class="find-out-more-button">Find out more</p>
 		</div>
 	</a>
 	<a href="http://highrisehq.com/?source=37signals+home" class="highrise-box">
-		<div class="product-box">
+		<div class="product-box HR">
+			<img class="HR-arrow" src="http://37signals.com/images/arrow-left.png">
 			<img src="http://37signals.com/images/logo-hr.png">
 			<h3><span>Highrise</span><span class="sup">&reg;</span></h3>
 			<h4>Manage Contacts</h4>
 			<p class="short-des">Know the people you do business with.</p>
+			<p class="find-out-more-button">Find out more</p>
 		</div>
 	</a>
-	<a href="http://campfirenow.com/?source=37signals+home" class="highrise-box">
-		<div class="product-box">
+	<a href="http://campfirenow.com/?source=37signals+home" class="campfire-box">
+		<div class="product-box CF">
+			<img class="CF-arrow" src="http://37signals.com/images/arrow-right.png">
 			<img src="http://37signals.com/images/logo-cf.png">
 			<h3><span>Campfire</span><span class="sup">&trade;</span></h3>
 			<h4>Work in Real-Time</h4>
 			<p class="short-des">Group chat rooms for your business.</p>
+			<p class="find-out-more-button">Find out more</p>
 		</div>
 	</a>
 </div> <!-- product-boxes-div !-->
