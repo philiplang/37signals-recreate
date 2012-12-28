@@ -135,6 +135,10 @@ div.product-boxes-div {
 	box-shadow: 0 0 5px #EFEFEF;
 }
 
+.product-box:hover {
+	box-shadow: 0 0 10px #333;
+}
+
 .product-box h3 {
 	font-size: 21px;
 	color: #369;
